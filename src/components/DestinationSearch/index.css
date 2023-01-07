@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  padding: 15px;
+}
+.input-container {
+  background-color: #f1f5f9;
+  border-radius: 15px;
+  display: flex;
+  max-width: 400px;
+  margin-left: 15px;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    align-items: flex-start;
+  }
+
+  .input-box {
+    border-style: none;
+    border-width: 0pxs;
+    background-color: #f1f5f9;
+    outline: none;
+  }
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

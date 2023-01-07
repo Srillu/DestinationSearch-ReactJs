@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.image-name {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.list-container {
+  list-style-type: none;
+}
+.image {
+  width: 200px;
+  height: 150px;
+}
